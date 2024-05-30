@@ -1,4 +1,4 @@
-const { Sequelize } = require("sequelize");
+yconst { Sequelize } = require("sequelize");
 const fs = require("fs");
 require("dotenv").config();
 const toBool = (x) => x === "true";
@@ -22,9 +22,9 @@ module.exports = {
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
   AUTHOR: process.env.AUTHOR || "X-Electra",
   SUDO:
-    process.env.SUDO || "918113921898,919598157259,918590508376,919383400679",
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
+    process.env.SUDO || "917902664578"
+  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "api",
+  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "api",
   OWNER_NAME: process.env.OWNER_NAME || "ANANDHU-M2K",
   HEROKU: toBool(process.env.HEROKU) || false,
   BOT_NAME: process.env.BOT_NAME || "X-M2K",
